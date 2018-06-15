@@ -8,7 +8,7 @@
 		die("Connection failed: " . $conn->connect_error);
 	} 
 
-	$sql = "INSERT INTO comments (name, comment, dateTime, approved) VALUES ('".$name."', '".$comment."', now(), b'0')";
+	$sql = "INSERT INTO ApprovedComments (name, comment, dateTime, approved) VALUES ('".$name."', '".$comment."', now(), b'0')";
 	if ($conn->query($sql) === TRUE) {
 		echo "New record created successfully";
 	} else {
@@ -24,10 +24,10 @@
 	$message = "The following comment has been created by " .$_POST['name']. ":";
 	$message .= "\n\n" . $_POST['comment'];
 	$message .= "\n\nTo confirm this comment please click the link below: ";
-	$message .= "\n https://curvier-roofs.000webhostapp.com/confirmation?id=" . $id; 
+	$message .= "\n www.confirmationSite.co.uk/confirmationID?id=" . $id; 
 	
 	$email = "comment@example.com";
 	$headers = 'From: '. $email . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
-	mail('caroline_112233@hotmail.co.uk', 'Someone has posted a comment!', $message, $headers);
+	mail('email@example.co.uk', 'Someone has posted a comment!', $message, $headers);
 ?>
