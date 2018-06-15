@@ -1,0 +1,140 @@
+/* Wrappers */
+body, #bodyHeader{
+	font-size: 15px !important;
+}
+
+#contentWrapper {
+	width: 825px;
+}
+
+#bodyContent{
+	width: 625px;
+}
+
+/* Menu */
+#menu{
+	font-size: 18px;
+	border-bottom: 1px solid black;
+	padding: 8px 0;
+	width:100%;
+	margin-top: 0px;
+}
+
+.menuLinkDiv{
+     display: inline;
+}
+
+.menuLink{
+   color: black;
+}
+
+
+#menuLinkList {
+    line-height: 13px;
+}
+
+
+/* Shout Outs */
+#shoutOutWrapper{
+	float: right;
+}
+
+#availableDiv, #linkDiv, #locationDiv {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 20px;
+    width: 114px;
+}
+
+#availableDiv,#locationDiv  {
+	margin-bottom: 14px;
+}
+
+.shoutOutTitle{
+	margin: 0px 0px 5px;
+}
+
+#duoSpan,  #recordingSpan, #weddingSpan{
+	color: #271B81;
+}
+
+#soloSpan, #bandSpan, #teachingSpan {
+	color: #68BDF2;
+}
+
+.shoutOutImage{
+	width: 30px;
+	margin-bottom: 10px;
+}
+
+
+
+/* Bio  */
+#bioImage{
+	width: 215px;
+	margin-top: 12px;
+}
+
+#linkPara{
+	margin-top: -10px;
+}
+
+
+/* Tuition */
+#tuitionImage{
+    width: 50%;
+}
+
+
+
+
+/* Teaching */
+#teachingImage{
+	width: 160px;
+}
+
+
+
+/* Options */
+#soloImage{
+	width: 170px;
+	margin-top: 3px;
+}
+
+#duoImage{
+	width: 123px;
+}
+
+#duoImage2{
+	width: 131px;
+	margin-top: 3px;
+}
+
+#bandImage{
+	width: 122px;
+}
+
+
+
+/* Gallery */
+#leftArrow{
+	margin-right: 49px;
+}
+
+#rightArrow{
+	margin-left: 49px;
+}
+
+.galleryImageThumb{
+	width: 50px;
+	height: 50px;
+}
+
+.galleryImage{
+	max-width: 500px;
+	height: 300px;
+}

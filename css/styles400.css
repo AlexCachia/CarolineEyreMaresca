@@ -1,0 +1,176 @@
+/* Wrappers */
+body{
+    width: 100%;	
+	font-size: 13px !important;      
+}
+
+#bodyHeader{
+height: 65px;
+}
+
+#contentWrapper{
+	position: relative;
+}
+
+#bodyContent{
+	float: left;
+	padding: 2% 3%;
+	width: 88%;
+	margin: 10px 3%;
+}
+
+#shoutOutWrapper{
+	display: none;
+}
+
+
+
+/* Mobile Menu */
+#menu{
+	background-color: #f2f2f2;
+	padding: 0px;
+	margin: 10px 3% 0px;
+    width: 94%;
+float: left;
+	display: block;
+}
+
+#mobileHeader{
+	color: white;
+	background-color: black;
+	font-weight: bold;
+	cursor: pointer;
+	display: block;
+	padding: 10px 0%;
+	width: 100%;
+}
+
+#mobileHeader, .menuLink{
+	float: left;
+    
+}
+
+.menuLinkDiv, #headerLink, .menuLink{
+	width: 92%;
+}
+
+.menuLink{
+	padding: 10px 0px;
+color: black;
+}
+
+#headerLink{
+	float: left;
+	font-size: 16px;
+}
+
+.Arrow{
+	width: 8%;
+	float: left;
+	text-align: center;
+}
+
+#MainArrowUp{
+	display: none;
+}
+
+#menuLinkList{ 
+	display: none; 
+	width:94%;
+		position: absolute;
+top: 120px;
+	background-color: #f2f2f2;
+	z-index: 10;
+}
+
+#menuLinkList li :hover{
+	background-color: #cc99ff;
+}
+
+a{
+	margin: 0px;
+}
+
+
+/* Text */
+h1{
+font-size: 25px;
+}
+
+h3{
+   font-size: 14px;
+}
+
+
+/* Images */
+#bioImage,  #teachingImage, #tuitionImage,  #soloImage, #bandImage {
+    width: 50%;
+	max-width: 225px;
+}
+
+
+
+
+ /* Tuition */
+#duoImage3, #duoImage {
+	height: 225px;
+}
+
+
+
+
+ /* Options */
+ #soloImage{
+	margin-top: 3px;
+}
+
+#duoImage{
+    margin-top: 6px;
+}
+
+#duoImage2{
+	display: none;
+}
+
+#duoImage3{
+	display: block;
+	margin-left: 3px;
+    margin-top: 3px;
+}
+
+#bandImage{
+	margin-top: 3px;
+}
+	
+
+
+
+
+
+/* Multimedia */
+audio {
+    padding: 2%;
+}
+
+
+
+
+/* Image Gallery*/
+.arrowDiv{
+	width: 10%;
+}
+
+.galleryImageThumb{
+	width: 43px;
+	height: 43px;
+}
+
+.galleryImage{
+	max-width: 215px;
+}
+
+
+/* Contact */
+form, input, textarea{
+	font-size: 12px !important;
+}
