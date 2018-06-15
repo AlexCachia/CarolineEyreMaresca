@@ -6,7 +6,7 @@
 		die("Connection failed: " . $conn->connect_error);
 	} 
 
-	$sql = "select name, comment, dateTime from comments where approved = 1 order by dateTime desc";
+	$sql = "select * from ApprovedComments where approved = 1 order by dateTime desc";
 	$result = $conn->query($sql);
 	
 	if ($result->num_rows > 0) {
