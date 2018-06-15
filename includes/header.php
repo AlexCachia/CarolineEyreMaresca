@@ -2,26 +2,12 @@
 <!-- Microdata markup added by Google Structured Data Markup Helper. -->
 <html lang="en">
 	<head>
-	
-        <script>
-        
-          window.dataLayer = window.dataLayer || [];
-        
-          function gtag(){dataLayer.push(arguments);}
-        
-          gtag('js', new Date());
-        
-         
-        
-          gtag('config', 'UA-96214017-1');
-        
-        </script>
-		<title>Caroline Eyre Maresca Maidstone Based Vocal Coach and Singer</title>
+		<title>Test Title</title>
 		<meta charset="UTF-8">
 		
-		<meta name="title" content="Caroline Eyre Maresca" >
-		<meta name="description" content="Vocal Coach and singer based in Maidstone, Kent" >
-		<meta name="keywords" content="vocal coach kent, singer kent, vocal coach, singer, wedding band, literacy teacher, singing lessons, wedding band hire kent, kent solo singer, kent singer, Kent Entertainer, wedding singer in kent" />
+		<meta name="title" content="Test Title" >
+		<meta name="description" content="Test Description" >
+		<meta name="keywords" content="some,keywords" />
 		<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 		
         <link rel="author" type="text/plain" href="humans.txt" />
@@ -65,7 +51,7 @@
 	<body>
 		<div id = "bodyWrapper" itemscope itemtype="http://schema.org/Product">
 			<div id = "bodyHeader" itemprop="name">
-				<h1>Caroline Eyre Maresca</h1><h3 itemprop="description">Professional Singer &amp; Teacher</h3>
+				<h1>Example Header</h1><h3 itemprop="description">Example Subheader</h3>
 			</div>
 			
 				<div id = "menu" class="menuHidden">
