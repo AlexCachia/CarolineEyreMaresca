@@ -22,7 +22,6 @@
 include 'includes/shoutOutWrapper.php';
 ?>
 </div>
-<meta itemprop="url" content="http://www.caroline-eyre-maresca.com/reviews">
 </div>
 </body>
 </html>
