@@ -7,7 +7,7 @@
 		die("Connection failed: " . $conn->connect_error);
 	} 
 
-	$sql = "UPDATE comments set approved = 1 where id = " . $id;
+	$sql = "UPDATE approvedComments set approved = 1 where id = " . $id;
 
 	$conn->query($sql);
 	
